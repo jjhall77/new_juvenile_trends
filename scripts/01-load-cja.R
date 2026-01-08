@@ -87,7 +87,8 @@ arrests <- arrests |>
     age_band_primary   = make_age_band_primary(age_for_band),
     age_band_secondary = make_age_band_secondary(age_for_band),
     year = year(arrest_date)
-  )
+  ) %>%
+  filter(year < 2026)
 
 # ── Validation checks ───────────────────────────────────────────────────────
 message("\n── Arrest data summary ──")
