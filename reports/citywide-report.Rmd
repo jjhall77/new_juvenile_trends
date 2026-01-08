@@ -1,0 +1,455 @@
+---
+title: "Juvenile Felony Arrests and Recidivism"
+subtitle: "New York City Citywide Report"
+author: "Mayor's Office of Criminal Justice"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+ pdf_document:
+   toc: true
+   toc_depth: 2
+   number_sections: true
+   fig_caption: true
+   keep_tex: false
+   latex_engine: xelatex
+   includes:
+     in_header: preamble.tex
+fontsize: 11pt
+geometry: margin=0.75in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+ echo = FALSE,
+ warning = FALSE,
+ message = FALSE,
+ fig.align = "center",
+ fig.width = 7,
+ fig.height = 4,
+ out.width = "100%",
+ dpi = 300
+)
+
+library(here)
+library(tidyverse)
+library(scales)
+library(knitr)
+
+# Load pre-computed data and plots
+share_tables <- readRDS(here("data", "share_tables.rds"))
+recid_tables <- readRDS(here("data", "recidivism_tables.rds"))
+all_plots    <- readRDS(here("output", "all_plots.rds"))
+
+# Get citywide plots
+citywide_plots <- all_plots[["Citywide"]]
+comparison_plots <- all_plots[["comparison"]]
+
+# Metadata
+recid_horizon <- recid_tables$metadata$horizon_days
+last_full_year <- recid_tables$metadata$last_full_year
+data_end_date <- recid_tables$metadata$data_end_date
+
+# Year ranges
+cja_years <- range(share_tables$cja_felony_primary$year)
+nypd_years <- range(share_tables$nypd_7major$year)
+
+# For table filtering
+boro <- "Citywide"
+```
+
+\newpage
+
+# Executive Summary
+
+This report presents **citywide** trends in juvenile felony arrests and recidivism for New York City from `r cja_years[1]` through `r cja_years[2]`. Key metrics include:
+
+- **Share of arrests** by age group across felonies, violent felony offenses (VFOs), and serious VFOs
+- **365-day felony recidivism rates** following index arrests
+- **Long-term context** using NYPD data from `r nypd_years[1]` to present
+- **Borough comparisons** showing variation across the five counties
+
+The analysis focuses on individuals **under 18**, with additional breakdowns for ages 13–15, 16–17, and 18–19.
+
+---
+
+# Long-Term Context: NYPD Data
+
+## Under-18 Share of 7 Major Felony Arrests (`r nypd_years[1]`–`r nypd_years[2]`)
+
+The following chart shows the citywide share of arrests for the seven major felonies (murder, rape, robbery, felony assault, burglary, grand larceny, and grand larceny auto) attributable to individuals under 18.
+
+```{r nypd-longrun, fig.cap="Citywide under-18 share of 7 Major Felony arrests", fig.height=3.5, fig.pos="H"}
+citywide_plots$nypd_longrun
+```
+
+\newpage
+
+# Arrest Share Analysis: CJA Data
+
+## All Felonies
+
+```{r cja-felony-u18, fig.cap="Citywide under-18 share of felony arrests", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_felony_u18
+```
+
+```{r cja-felony-secondary, fig.cap="Citywide felony arrest share by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_felony_secondary
+```
+
+## Violent Felony Offenses (VFOs)
+
+```{r cja-vfo-u18, fig.cap="Citywide under-18 share of VFO arrests", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_vfo_u18
+```
+
+```{r cja-vfo-secondary, fig.cap="Citywide VFO arrest share by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_vfo_secondary
+```
+
+## Serious VFOs (Murder, Attempted Murder, Assault 1st, Robbery 1st)
+
+```{r cja-serious-vfo-u18, fig.cap="Citywide under-18 share of Serious VFO arrests", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_serious_vfo_u18
+```
+
+```{r cja-serious-vfo-secondary, fig.cap="Citywide Serious VFO arrest share by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_serious_vfo_secondary
+```
+
+\newpage
+
+# Recidivism Analysis
+
+Recidivism is defined as a new **felony arrest** within **`r recid_horizon` days** of an index arrest. Index arrests from `r last_full_year + 1` onward do not yet have complete follow-up windows and are excluded from rate calculations.
+
+## Felony Index Arrests
+
+```{r recid-felony-u18, fig.cap="Citywide under-18 felony recidivism rate", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_felony_u18
+```
+
+```{r recid-felony-secondary, fig.cap="Citywide felony recidivism by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_felony_secondary
+```
+
+## VFO Index Arrests
+
+```{r recid-vfo-u18, fig.cap="Citywide under-18 VFO recidivism rate", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_vfo_u18
+```
+
+```{r recid-vfo-secondary, fig.cap="Citywide VFO recidivism by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_vfo_secondary
+```
+
+## Serious VFO Index Arrests
+
+```{r recid-serious-vfo-u18, fig.cap="Citywide under-18 Serious VFO recidivism rate", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_serious_vfo_u18
+```
+
+```{r recid-serious-vfo-secondary, fig.cap="Citywide Serious VFO recidivism by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_serious_vfo_secondary
+```
+
+\newpage
+
+# Borough Comparisons
+
+## Arrest Share Rankings
+
+```{r comparison-felony-share, fig.cap="Under-18 felony arrest share by borough", fig.height=3.2, fig.pos="H"}
+comparison_plots$felony_share
+```
+
+```{r comparison-vfo-share, fig.cap="Under-18 VFO arrest share by borough", fig.height=3.2, fig.pos="H"}
+comparison_plots$vfo_share
+```
+
+```{r comparison-serious-vfo-share, fig.cap="Under-18 Serious VFO arrest share by borough", fig.height=3.2, fig.pos="H"}
+comparison_plots$serious_vfo_share
+```
+
+## Recidivism Rankings
+
+```{r comparison-recid, fig.cap="Under-18 felony recidivism rate by borough", fig.height=3.2, fig.pos="H"}
+comparison_plots$recid_felony
+```
+
+\newpage
+
+# Gun Arrests Analysis
+
+This section analyzes arrests where **Criminal Possession of a Weapon 2nd Degree (CPW 2nd, PL 265.03)** is the top charge. This represents cases where illegal firearm possession is the most serious offense.
+
+## Share of Gun Arrests
+
+```{r cja-gun-u18, fig.cap="Citywide under-18 share of gun arrests", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_gun_u18
+```
+
+```{r cja-gun-secondary, fig.cap="Citywide gun arrest share by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$cja_gun_secondary
+```
+
+## Gun Recidivism
+
+Recidivism following gun index arrests (CPW 2nd as top charge), measured as any felony rearrest within `r recid_horizon` days.
+
+```{r recid-gun-u18, fig.cap="Citywide under-18 gun recidivism rate", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_gun_u18
+```
+
+```{r recid-gun-secondary, fig.cap="Citywide gun recidivism by youth age group", fig.height=3.3, fig.pos="H"}
+citywide_plots$recid_gun_secondary
+```
+
+## Gun Borough Comparisons
+
+```{r comparison-gun-share, fig.cap="Under-18 gun arrest share by borough", fig.height=3.2, fig.pos="H"}
+comparison_plots$gun_share
+```
+
+```{r comparison-gun-recid, fig.cap="Under-18 gun recidivism rate by borough", fig.height=3.2, fig.pos="H"}
+comparison_plots$recid_gun
+```
+
+\newpage
+
+# Data Tables
+
+```{r table-setup}
+# Helper function to create wide-format share table (years across top)
+make_wide_share_table <- function(data, age_filter = "<18", age_var = "age_band_primary", title = "") {
+ df <- data |>
+   filter(boro_name == boro, .data[[age_var]] == age_filter) |>
+   select(year, n, pct) |>
+   arrange(year)
+ 
+ if (nrow(df) == 0) return(kable(data.frame(Note = "No data available"), caption = title, booktabs = TRUE))
+ 
+ wide_n <- df |>
+   mutate(n = scales::comma(n)) |>
+   select(year, n) |>
+   pivot_wider(names_from = year, values_from = n) |>
+   mutate(Metric = "N", .before = 1)
+ 
+ wide_pct <- df |>
+   mutate(pct = percent(pct, accuracy = 0.1)) |>
+   select(year, pct) |>
+   pivot_wider(names_from = year, values_from = pct) |>
+   mutate(Metric = "%", .before = 1)
+ 
+ bind_rows(wide_n, wide_pct) |>
+   kable(caption = title, booktabs = TRUE, linesep = "")
+}
+
+make_wide_recid_table <- function(data, age_filter = "<18", age_var = "age_band_primary", title = "") {
+ df <- data |>
+   filter(boro_name == boro, .data[[age_var]] == age_filter) |>
+   select(year, n_eligible, rate) |>
+   arrange(year)
+ 
+ if (nrow(df) == 0) return(kable(data.frame(Note = "No data available"), caption = title, booktabs = TRUE))
+ 
+ wide_n <- df |>
+   mutate(n_eligible = scales::comma(n_eligible)) |>
+   select(year, n_eligible) |>
+   pivot_wider(names_from = year, values_from = n_eligible) |>
+   mutate(Metric = "N Eligible", .before = 1)
+ 
+ wide_rate <- df |>
+   mutate(rate = percent(rate, accuracy = 0.1)) |>
+   select(year, rate) |>
+   pivot_wider(names_from = year, values_from = rate) |>
+   mutate(Metric = "Rate", .before = 1)
+ 
+ bind_rows(wide_n, wide_rate) |>
+   kable(caption = title, booktabs = TRUE, linesep = "")
+}
+
+make_wide_share_table_secondary <- function(data, title = "") {
+ keep_ages <- c("13-15", "16-17", "18-19")
+ 
+ df <- data |>
+   filter(boro_name == boro, age_band_secondary %in% keep_ages) |>
+   select(year, age_band_secondary, n, pct) |>
+   arrange(age_band_secondary, year)
+ 
+ if (nrow(df) == 0) return(kable(data.frame(Note = "No data available"), caption = title, booktabs = TRUE))
+ 
+ wide <- df |>
+   mutate(label = paste0(scales::comma(n), " (", percent(pct, accuracy = 0.1), ")")) |>
+   select(year, age_band_secondary, label) |>
+   pivot_wider(names_from = year, values_from = label) |>
+   rename(`Age Group` = age_band_secondary)
+ 
+ wide |>
+   kable(caption = title, booktabs = TRUE, linesep = "")
+}
+
+make_wide_recid_table_secondary <- function(data, title = "") {
+ keep_ages <- c("13-15", "16-17", "18-19")
+ 
+ df <- data |>
+   filter(boro_name == boro, age_band_secondary %in% keep_ages) |>
+   select(year, age_band_secondary, n_eligible, rate) |>
+   arrange(age_band_secondary, year)
+ 
+ if (nrow(df) == 0) return(kable(data.frame(Note = "No data available"), caption = title, booktabs = TRUE))
+ 
+ wide <- df |>
+   mutate(label = paste0(scales::comma(n_eligible), " (", percent(rate, accuracy = 0.1), ")")) |>
+   select(year, age_band_secondary, label) |>
+   pivot_wider(names_from = year, values_from = label) |>
+   rename(`Age Group` = age_band_secondary)
+ 
+ wide |>
+   kable(caption = title, booktabs = TRUE, linesep = "")
+}
+```
+
+## Arrest Share Tables
+
+### Felony Arrests
+
+```{r table-felony-share-u18}
+make_wide_share_table(share_tables$citywide_felony_primary,
+                     title = "Citywide Under-18 Felony Arrest Share (N and %)")
+```
+
+```{r table-felony-share-secondary}
+make_wide_share_table_secondary(share_tables$citywide_felony_secondary,
+                               title = "Citywide Felony Arrest Share by Youth Age Group — N (%)")
+```
+
+### VFO Arrests
+
+```{r table-vfo-share-u18}
+make_wide_share_table(share_tables$citywide_vfo_primary,
+                     title = "Citywide Under-18 VFO Arrest Share (N and %)")
+```
+
+```{r table-vfo-share-secondary}
+make_wide_share_table_secondary(share_tables$citywide_vfo_secondary,
+                               title = "Citywide VFO Arrest Share by Youth Age Group — N (%)")
+```
+
+### Serious VFO Arrests
+
+```{r table-serious-vfo-share-u18}
+make_wide_share_table(share_tables$citywide_serious_vfo_primary,
+                     title = "Citywide Under-18 Serious VFO Arrest Share (N and %)")
+```
+
+```{r table-serious-vfo-share-secondary}
+make_wide_share_table_secondary(share_tables$citywide_serious_vfo_secondary,
+                               title = "Citywide Serious VFO Arrest Share by Youth Age Group — N (%)")
+```
+
+### Gun Arrests (CPW 2nd)
+
+```{r table-gun-share-u18}
+make_wide_share_table(share_tables$citywide_gun_primary,
+                     title = "Citywide Under-18 Gun Arrest Share (N and %)")
+```
+
+```{r table-gun-share-secondary}
+make_wide_share_table_secondary(share_tables$citywide_gun_secondary,
+                               title = "Citywide Gun Arrest Share by Youth Age Group — N (%)")
+```
+
+\newpage
+
+## Recidivism Tables
+
+### Felony Index → Felony Rearrest
+
+```{r table-recid-felony-u18}
+make_wide_recid_table(recid_tables$citywide_felony_primary,
+                     title = "Citywide Under-18 Felony 365-Day Recidivism (N Eligible and Rate)")
+```
+
+```{r table-recid-felony-secondary}
+make_wide_recid_table_secondary(recid_tables$citywide_felony_secondary,
+                               title = "Citywide Felony 365-Day Recidivism by Youth Age Group — N (Rate)")
+```
+
+### VFO Index → Felony Rearrest
+
+```{r table-recid-vfo-u18}
+make_wide_recid_table(recid_tables$citywide_vfo_primary,
+                     title = "Citywide Under-18 VFO 365-Day Recidivism (N Eligible and Rate)")
+```
+
+```{r table-recid-vfo-secondary}
+make_wide_recid_table_secondary(recid_tables$citywide_vfo_secondary,
+                               title = "Citywide VFO 365-Day Recidivism by Youth Age Group — N (Rate)")
+```
+
+### Serious VFO Index → Felony Rearrest
+
+```{r table-recid-serious-vfo-u18}
+make_wide_recid_table(recid_tables$citywide_serious_vfo_primary,
+                     title = "Citywide Under-18 Serious VFO 365-Day Recidivism (N Eligible and Rate)")
+```
+
+```{r table-recid-serious-vfo-secondary}
+make_wide_recid_table_secondary(recid_tables$citywide_serious_vfo_secondary,
+                               title = "Citywide Serious VFO 365-Day Recidivism by Youth Age Group — N (Rate)")
+```
+
+### Gun Index → Felony Rearrest
+
+```{r table-recid-gun-u18}
+make_wide_recid_table(recid_tables$citywide_gun_primary,
+                     title = "Citywide Under-18 Gun 365-Day Recidivism (N Eligible and Rate)")
+```
+
+```{r table-recid-gun-secondary}
+make_wide_recid_table_secondary(recid_tables$citywide_gun_secondary,
+                               title = "Citywide Gun 365-Day Recidivism by Youth Age Group — N (Rate)")
+```
+
+---
+
+\newpage
+
+# Methodology
+
+## Data Sources
+
+- **CJA Arrest Data** (`r cja_years[1]`–`r cja_years[2]`): Individual-level arrest records from the Criminal Justice Agency, linked by `lum_id`.
+- **NYPD Open Data** (`r nypd_years[1]`–`r nypd_years[2]`): Public arrest records for long-term trend analysis.
+
+## Definitions
+
+- **Felony**: VFO or Felony Non-VFO charge classification
+- **VFO**: Violent Felony Offense as defined in New York State statute
+- **Serious VFO**: Assault 1st (PL 120.10), Murder (PL 125.25-27), Attempted Murder, or Robbery 1st (PL 160.15)
+- **Gun Arrest**: Criminal Possession of a Weapon 2nd Degree (PL 265.03) as the top charge
+- **Age classification**: Age at arrest, consistent with NYPD open data methodology
+
+## Age Classification Notes
+
+Arrests are classified by **age at arrest** (not age at offense). This approach was chosen for two reasons:
+
+1. **Consistency with NYPD data**: NYPD open data reports age at arrest, enabling direct comparison between CJA and NYPD trend lines.
+2. **Measurement reliability**: Age at arrest has fewer missing values than age at offense.
+
+**Sensitivity analysis**: Using age at offense instead of age at arrest yields under-18 shares approximately 0.2 percentage points higher for felonies and VFOs, and 1–2 percentage points higher for Serious VFOs. The larger discrepancy for Serious VFOs reflects longer investigation times for homicides and armed robberies, during which some juveniles turn 18 before arrest. The choice of age measure does not substantively affect trend directions or conclusions.
+
+## Recidivism Calculation
+
+- **Index arrest**: First arrest per person-day, classified by most serious charge
+- **Recidivism**: New felony arrest within `r recid_horizon` days of index arrest
+- **Event date**: Reoffense date (or rearrest date if unavailable)
+- **Exposure window**: Index arrests through `r data_end_date - recid_horizon` days are included; later arrests lack full follow-up
+
+## Age Bands
+
+- **Primary**: <18, 18–24, 25–29, 30–34, 35–44, 45–54, 55+
+- **Secondary (youth focus)**: 13–15, 16–17, 18–19, 20+
+
+---
+
+*Report generated: `r Sys.time()`*
