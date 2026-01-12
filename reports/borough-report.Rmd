@@ -1,7 +1,6 @@
 ---
 title: "Juvenile Felony Arrests and Recidivism"
 subtitle: "`r params$borough`"
-author: "Mayor's Office of Criminal Justice"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   pdf_document:

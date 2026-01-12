@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.29)  8 JAN 2026 10:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.29)  9 JAN 2026 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,40 +672,40 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 )) (./juvenile_report_manhattan.aux)
 \openout1 = `juvenile_report_manhattan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 153.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 153.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 153.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 153.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 153.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 153.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 153.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 152.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -733,7 +733,7 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 153.
+(Font)              scaled to size 10.95pt on input line 152.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -769,15 +769,15 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 153.
+(Font)              scaled to size 10.95pt on input line 152.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 153.
+(Font)              `operators' in the math version `normal' on input line 152.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 153.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 152.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 153.
+(Font)              `operators' in the math version `bold' on input line 152.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 153.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 152.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -843,13 +843,13 @@ Package fontspec Info:
 (fontspec)             <->s*[1.000096766517402]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 153.
+(Font)              `symbols' in the math version `normal' on input line 152.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 153.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 152.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 153.
+(Font)              `symbols' in the math version `bold' on input line 152.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 153.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 152.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -909,13 +909,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9998967671640342]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 153.
+(Font)              `largesymbols' in the math version `normal' on input line 152.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 153.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 152.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 153.
+(Font)              `largesymbols' in the math version `bold' on input line 152.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 153.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 152.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -954,34 +954,34 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 153.
+Package hyperref Info: Link coloring OFF on input line 152.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 155.
+(Font)              scaled to size 12.0pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 155.
+(Font)              scaled to size 8.0pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 155.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 155.
+(Font)              scaled to size 6.0pt on input line 154.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 154.
 (/Users/johnhall/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 155.
+(Font)              scaled to size 12.0011pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 155.
+(Font)              scaled to size 8.00073pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 155.
+(Font)              scaled to size 6.00055pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 155.
+(Font)              scaled to size 11.99872pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 155.
+(Font)              scaled to size 7.99915pt on input line 154.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 155.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 155.
+(Font)              scaled to size 5.99936pt on input line 154.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 154.
 (/Users/johnhall/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 155.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 154.
 (/Users/johnhall/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./juvenile_report_manhattan.toc
@@ -1066,1012 +1066,1012 @@ File: /Users/johnhall/Documents/MOCJ/new_juvenile_trends/output/reports/juvenile
 File: /Users/johnhall/Documents/MOCJ/new_juvenile_trends/output/reports/juvenile_report_manhattan_files/figure-latex/comparison-gun-recid-1.pdf Graphic file (type pdf)
 <use /Users/johnhall/Documents/MOCJ/new_juvenile_trends/output/reports/juvenile_report_manhattan_files/figure-latex/comparison-gun-recid-1.pdf>
 [14]
-Overfull \hbox (4.9293pt too wide) in paragraph at lines 551--552
+Overfull \hbox (4.9293pt too wide) in paragraph at lines 550--551
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (4.9293pt too wide) in paragraph at lines 579--580
+Overfull \hbox (4.9293pt too wide) in paragraph at lines 578--579
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--607
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 606--606
  \TU/lmr/m/n/10.95 (2.1%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--607
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 606--606
  \TU/lmr/m/n/10.95 (2.3%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--608
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 606--607
  \TU/lmr/m/n/10.95 (4.1%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 608--608
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--607
  \TU/lmr/m/n/10.95 (2.8%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 608--608
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--607
  \TU/lmr/m/n/10.95 (1.3%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 608--608
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--607
  \TU/lmr/m/n/10.95 (2.2%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 608--608
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--607
  \TU/lmr/m/n/10.95 (2.5%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 608--609
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 607--608
  \TU/lmr/m/n/10.95 (2.7%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 609--610
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 608--609
  \TU/lmr/m/n/10.95 (2.9%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--610
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 609--609
  \TU/lmr/m/n/10.95 (3.6%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--610
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 609--609
  \TU/lmr/m/n/10.95 (3.4%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--611
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 609--610
  \TU/lmr/m/n/10.95 (4.4%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 611--611
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--610
  \TU/lmr/m/n/10.95 (3.9%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 611--611
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--610
  \TU/lmr/m/n/10.95 (2.6%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 611--611
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--610
  \TU/lmr/m/n/10.95 (2.6%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 611--611
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--610
  \TU/lmr/m/n/10.95 (2.9%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 611--612
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 610--611
  \TU/lmr/m/n/10.95 (3.4%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 612--613
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 611--612
  \TU/lmr/m/n/10.95 (3.0%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--613
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 612--612
  \TU/lmr/m/n/10.95 (4.9%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--613
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 612--612
  \TU/lmr/m/n/10.95 (4.7%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--614
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 612--613
  \TU/lmr/m/n/10.95 (4.8%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 614--614
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--613
  \TU/lmr/m/n/10.95 (4.5%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 614--614
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--613
  \TU/lmr/m/n/10.95 (4.6%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 614--614
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--613
  \TU/lmr/m/n/10.95 (3.9%)| 
  []
 
 
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 614--614
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--613
  \TU/lmr/m/n/10.95 (4.5%)| 
+ []
+
+
+Overfull \hbox (0.90112pt too wide) in paragraph at lines 613--614
+ \TU/lmr/m/n/10.95 (3.9%)| 
  []
 
 
 Overfull \hbox (0.90112pt too wide) in paragraph at lines 614--615
- \TU/lmr/m/n/10.95 (3.9%)| 
- []
-
-
-Overfull \hbox (0.90112pt too wide) in paragraph at lines 615--616
  \TU/lmr/m/n/10.95 (3.5%)| 
  []
 
 
-Overfull \hbox (4.21617pt too wide) in paragraph at lines 715--716
+Overfull \hbox (4.21617pt too wide) in paragraph at lines 714--715
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (4.21617pt too wide) in paragraph at lines 743--744
+Overfull \hbox (4.21617pt too wide) in paragraph at lines 742--743
 \TU/lmr/m/n/10.95 Group  
  []
 
 [15]
-Overfull \hbox (3.84534pt too wide) in paragraph at lines 879--880
+Overfull \hbox (3.84534pt too wide) in paragraph at lines 878--879
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (3.84534pt too wide) in paragraph at lines 907--908
+Overfull \hbox (3.84534pt too wide) in paragraph at lines 906--907
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 935--935
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 934--934
  \TU/lmr/m/n/10.95 (5.0%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 935--935
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 934--934
  \TU/lmr/m/n/10.95 (6.5%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 935--935
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 934--934
  \TU/lmr/m/n/10.95 (5.6%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 936--936
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 935--935
  \TU/lmr/m/n/10.95 (3.7%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 936--936
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 935--935
  \TU/lmr/m/n/10.95 (4.5%)| 
  []
 
 
-Overfull \hbox (2.37685pt too wide) in paragraph at lines 936--938
+Overfull \hbox (2.37685pt too wide) in paragraph at lines 935--937
  \TU/lmr/m/n/10.95 (11.5%)| 
  []
 
 
-Overfull \hbox (5.06966pt too wide) in paragraph at lines 938--938
+Overfull \hbox (5.06966pt too wide) in paragraph at lines 937--937
  \TU/lmr/m/n/10.95 (11.0%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 938--938
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 937--937
  \TU/lmr/m/n/10.95 (8.4%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 938--938
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 937--937
  \TU/lmr/m/n/10.95 (6.3%)| 
  []
 
 
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 937--937
+ \TU/lmr/m/n/10.95 (9.1%)| 
+ []
+
+
+Overfull \hbox (5.06966pt too wide) in paragraph at lines 937--938
+ \TU/lmr/m/n/10.95 (13.1%)| 
+ []
+
+
+Overfull \hbox (5.06966pt too wide) in paragraph at lines 938--938
+ \TU/lmr/m/n/10.95 (10.4%)| 
+ []
+
+
 Overfull \hbox (2.24753pt too wide) in paragraph at lines 938--938
  \TU/lmr/m/n/10.95 (9.1%)| 
  []
 
 
-Overfull \hbox (5.06966pt too wide) in paragraph at lines 938--939
- \TU/lmr/m/n/10.95 (13.1%)| 
- []
-
-
-Overfull \hbox (5.06966pt too wide) in paragraph at lines 939--939
- \TU/lmr/m/n/10.95 (10.4%)| 
- []
-
-
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 939--939
- \TU/lmr/m/n/10.95 (9.1%)| 
- []
-
-
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 939--939
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 938--938
  \TU/lmr/m/n/10.95 (6.9%)| 
  []
 
 
-Overfull \hbox (2.37685pt too wide) in paragraph at lines 939--939
+Overfull \hbox (2.37685pt too wide) in paragraph at lines 938--938
  \TU/lmr/m/n/10.95 (10.7%)| 
  []
 
 
-Overfull \hbox (2.37685pt too wide) in paragraph at lines 940--941
+Overfull \hbox (2.37685pt too wide) in paragraph at lines 939--940
  \TU/lmr/m/n/10.95 (14.1%)| 
  []
 
 
-Overfull \hbox (5.06966pt too wide) in paragraph at lines 941--941
+Overfull \hbox (5.06966pt too wide) in paragraph at lines 940--940
  \TU/lmr/m/n/10.95 (11.0%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 941--941
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 940--940
  \TU/lmr/m/n/10.95 (9.1%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 941--941
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 940--940
  \TU/lmr/m/n/10.95 (7.4%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 941--941
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 940--940
  \TU/lmr/m/n/10.95 (8.3%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 942--942
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 941--941
  \TU/lmr/m/n/10.95 (8.1%)| 
  []
 
 
-Overfull \hbox (2.24753pt too wide) in paragraph at lines 942--942
+Overfull \hbox (2.24753pt too wide) in paragraph at lines 941--941
  \TU/lmr/m/n/10.95 (7.7%)| 
  []
 
 
-Overfull \hbox (2.37685pt too wide) in paragraph at lines 942--942
+Overfull \hbox (2.37685pt too wide) in paragraph at lines 941--941
  \TU/lmr/m/n/10.95 (10.1%)| 
  []
 
 
-Overfull \hbox (2.37685pt too wide) in paragraph at lines 942--944
+Overfull \hbox (2.37685pt too wide) in paragraph at lines 941--943
  \TU/lmr/m/n/10.95 (12.9%)| 
  []
 
 
-Overfull \hbox (3.65707pt too wide) in paragraph at lines 1043--1044
+Overfull \hbox (3.65707pt too wide) in paragraph at lines 1042--1043
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (3.65707pt too wide) in paragraph at lines 1071--1072
+Overfull \hbox (3.65707pt too wide) in paragraph at lines 1070--1071
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1098--1098
  \TU/lmr/m/n/10.95 (1.7%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1098--1098
  \TU/lmr/m/n/10.95 (1.7%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1099--1100
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1098--1099
  \TU/lmr/m/n/10.95 (3.4%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1102--1102
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1101--1101
  \TU/lmr/m/n/10.95 (4.4%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1102--1102
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1101--1101
  \TU/lmr/m/n/10.95 (8.4%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1103--1103
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1102--1102
  \TU/lmr/m/n/10.95 (6.8%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1103--1105
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1102--1104
  \TU/lmr/m/n/10.95 (13.2%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1105
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1104--1104
  \TU/lmr/m/n/10.95 (10.5%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1105
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1104--1104
  \TU/lmr/m/n/10.95 (12.9%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1105
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1104--1104
  \TU/lmr/m/n/10.95 (11.7%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1105--1105
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1104--1104
  \TU/lmr/m/n/10.95 (4.4%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1105--1106
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1104--1105
  \TU/lmr/m/n/10.95 (8.4%)| 
  []
 
 
-Overfull \hbox (2.05927pt too wide) in paragraph at lines 1106--1106
+Overfull \hbox (2.05927pt too wide) in paragraph at lines 1105--1105
  \TU/lmr/m/n/10.95 (9.6%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1106--1106
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1105
  \TU/lmr/m/n/10.95 (17.0%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1106--1106
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1105
  \TU/lmr/m/n/10.95 (11.9%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1106--1106
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1105
  \TU/lmr/m/n/10.95 (13.5%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1106--1107
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1105--1106
  \TU/lmr/m/n/10.95 (13.1%)| 
  []
 
 
-Overfull \hbox (4.84146pt too wide) in paragraph at lines 1107--1108
+Overfull \hbox (4.84146pt too wide) in paragraph at lines 1106--1107
  \TU/lmr/m/n/10.95 (12.4%)| 
  []
 
 [16]
-Overfull \hbox (3.75995pt too wide) in paragraph at lines 1207--1208
+Overfull \hbox (3.75995pt too wide) in paragraph at lines 1206--1207
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (3.75995pt too wide) in paragraph at lines 1233--1234
+Overfull \hbox (3.75995pt too wide) in paragraph at lines 1232--1233
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1259
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1258--1258
  \TU/lmr/m/n/10.95 (23.3%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1259
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1258--1258
  \TU/lmr/m/n/10.95 (34.7%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1260
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1258--1259
  \TU/lmr/m/n/10.95 (47.9%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1260--1260
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1259
  \TU/lmr/m/n/10.95 (38.8%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1260--1260
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1259
  \TU/lmr/m/n/10.95 (35.1%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1260--1260
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1259
  \TU/lmr/m/n/10.95 (40.1%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1260--1260
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1259--1259
  \TU/lmr/m/n/10.95 (39.2%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1261--1262
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1260--1261
  \TU/lmr/m/n/10.95 (38.0%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1262
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1261--1261
  \TU/lmr/m/n/10.95 (33.6%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1262
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1261--1261
  \TU/lmr/m/n/10.95 (32.7%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1263
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1261--1262
  \TU/lmr/m/n/10.95 (41.6%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1263--1263
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1262
  \TU/lmr/m/n/10.95 (40.5%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1263--1263
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1262
  \TU/lmr/m/n/10.95 (42.8%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1263--1263
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1262
  \TU/lmr/m/n/10.95 (33.3%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1263--1263
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1262--1262
  \TU/lmr/m/n/10.95 (35.6%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1264--1265
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1263--1264
  \TU/lmr/m/n/10.95 (36.7%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1265
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1264--1264
  \TU/lmr/m/n/10.95 (28.2%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1265
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1264--1264
  \TU/lmr/m/n/10.95 (31.6%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1265
  \TU/lmr/m/n/10.95 (28.9%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1265
  \TU/lmr/m/n/10.95 (34.4%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1265
  \TU/lmr/m/n/10.95 (34.6%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1265
  \TU/lmr/m/n/10.95 (35.2%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1266--1267
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1265--1266
  \TU/lmr/m/n/10.95 (35.1%)| 
  []
 
 
-Overfull \hbox (2.26309pt too wide) in paragraph at lines 1267--1268
+Overfull \hbox (2.26309pt too wide) in paragraph at lines 1266--1267
  \TU/lmr/m/n/10.95 (32.2%)| 
  []
 
 
-Overfull \hbox (2.98859pt too wide) in paragraph at lines 1363--1364
+Overfull \hbox (2.98859pt too wide) in paragraph at lines 1362--1363
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (0.13538pt too wide) in alignment at lines 1358--1386
+Overfull \hbox (0.13538pt too wide) in alignment at lines 1357--1385
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.98859pt too wide) in paragraph at lines 1389--1390
+Overfull \hbox (2.98859pt too wide) in paragraph at lines 1388--1389
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (0.13538pt too wide) in alignment at lines 1386--1412
+Overfull \hbox (0.13538pt too wide) in alignment at lines 1385--1411
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.13538pt too wide) in alignment at lines 1412--1414
+Overfull \hbox (0.13538pt too wide) in alignment at lines 1411--1413
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1414--1414
  \TU/lmr/m/n/10.95 (33.6%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1414--1414
  \TU/lmr/m/n/10.95 (25.1%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1414--1414
  \TU/lmr/m/n/10.95 (25.4%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1414--1414
  \TU/lmr/m/n/10.95 (37.3%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1416
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1414--1415
  \TU/lmr/m/n/10.95 (53.4%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1416--1416
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
  \TU/lmr/m/n/10.95 (37.6%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1416--1416
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
  \TU/lmr/m/n/10.95 (35.3%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1416--1416
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
  \TU/lmr/m/n/10.95 (41.5%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1416--1416
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1415--1415
  \TU/lmr/m/n/10.95 (44.8%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1417--1418
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1416--1417
  \TU/lmr/m/n/10.95 (35.6%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1417--1417
  \TU/lmr/m/n/10.95 (34.2%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1417--1417
  \TU/lmr/m/n/10.95 (29.1%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1417--1417
  \TU/lmr/m/n/10.95 (28.6%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1417--1417
  \TU/lmr/m/n/10.95 (29.3%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1419
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1417--1418
  \TU/lmr/m/n/10.95 (43.6%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1419--1419
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
  \TU/lmr/m/n/10.95 (36.9%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1419--1419
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
  \TU/lmr/m/n/10.95 (42.4%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1419--1419
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
  \TU/lmr/m/n/10.95 (34.4%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1419--1419
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1418--1418
  \TU/lmr/m/n/10.95 (33.1%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1420--1421
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1419--1420
  \TU/lmr/m/n/10.95 (38.9%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1420--1420
  \TU/lmr/m/n/10.95 (31.8%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1420--1420
  \TU/lmr/m/n/10.95 (33.3%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1420--1420
  \TU/lmr/m/n/10.95 (26.3%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1420--1420
  \TU/lmr/m/n/10.95 (29.0%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1422
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1420--1421
  \TU/lmr/m/n/10.95 (28.9%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1422--1422
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
  \TU/lmr/m/n/10.95 (31.0%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1422--1422
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
  \TU/lmr/m/n/10.95 (29.5%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1422--1422
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
  \TU/lmr/m/n/10.95 (34.2%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1422--1422
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1421--1421
  \TU/lmr/m/n/10.95 (34.1%)| 
  []
 
 
-Overfull \hbox (1.2621pt too wide) in paragraph at lines 1423--1424
+Overfull \hbox (1.2621pt too wide) in paragraph at lines 1422--1423
  \TU/lmr/m/n/10.95 (27.9%)| 
  []
 
 
-Overfull \hbox (0.13538pt too wide) in alignment at lines 1414--1424
+Overfull \hbox (0.13538pt too wide) in alignment at lines 1413--1423
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [17]
-Overfull \hbox (0.86295pt too wide) in paragraph at lines 1518--1519
+Overfull \hbox (0.86295pt too wide) in paragraph at lines 1517--1518
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (0.86295pt too wide) in paragraph at lines 1544--1545
+Overfull \hbox (0.86295pt too wide) in paragraph at lines 1543--1544
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1569--1569
  \TU/lmr/m/n/10.95 (36.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1569--1569
  \TU/lmr/m/n/10.95 (37.5%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1569--1569
  \TU/lmr/m/n/10.95 (22.9%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1569--1569
  \TU/lmr/m/n/10.95 (46.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1571
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1569--1570
  \TU/lmr/m/n/10.95 (70.4%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1571--1571
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
  \TU/lmr/m/n/10.95 (44.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1571--1571
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
  \TU/lmr/m/n/10.95 (40.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1571--1571
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
  \TU/lmr/m/n/10.95 (43.6%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1571--1571
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1570
  \TU/lmr/m/n/10.95 (46.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1571--1573
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1570--1572
  \TU/lmr/m/n/10.95 (35.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1572--1572
  \TU/lmr/m/n/10.95 (35.8%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1572--1572
  \TU/lmr/m/n/10.95 (20.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1572--1572
  \TU/lmr/m/n/10.95 (30.3%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1572--1572
  \TU/lmr/m/n/10.95 (45.8%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1574
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1572--1573
  \TU/lmr/m/n/10.95 (42.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
  \TU/lmr/m/n/10.95 (35.6%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
  \TU/lmr/m/n/10.95 (50.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
  \TU/lmr/m/n/10.95 (38.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1573
  \TU/lmr/m/n/10.95 (31.8%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1574--1576
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1573--1575
  \TU/lmr/m/n/10.95 (51.9%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1575--1575
  \TU/lmr/m/n/10.95 (22.4%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1575--1575
  \TU/lmr/m/n/10.95 (32.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1575--1575
  \TU/lmr/m/n/10.95 (13.9%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1575--1575
  \TU/lmr/m/n/10.95 (37.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1577
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1575--1576
  \TU/lmr/m/n/10.95 (27.3%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1577--1577
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
  \TU/lmr/m/n/10.95 (22.9%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1577--1577
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
  \TU/lmr/m/n/10.95 (26.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1577--1577
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
  \TU/lmr/m/n/10.95 (24.3%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1577--1577
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1576
  \TU/lmr/m/n/10.95 (34.8%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1577--1579
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1576--1578
  \TU/lmr/m/n/10.95 (24.6%)| 
  []
 
 
-Overfull \hbox (0.86295pt too wide) in paragraph at lines 1673--1674
+Overfull \hbox (0.86295pt too wide) in paragraph at lines 1672--1673
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (0.86295pt too wide) in paragraph at lines 1699--1700
+Overfull \hbox (0.86295pt too wide) in paragraph at lines 1698--1699
 \TU/lmr/m/n/10.95 Group  
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1724--1724
  \TU/lmr/m/n/10.95 (50.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1724--1724
  \TU/lmr/m/n/10.95 (25.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1724--1724
  \TU/lmr/m/n/10.95 (25.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1724--1724
  \TU/lmr/m/n/10.95 (80.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
  \TU/lmr/m/n/10.95 (28.6%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
  \TU/lmr/m/n/10.95 (18.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
  \TU/lmr/m/n/10.95 (42.9%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1725
  \TU/lmr/m/n/10.95 (46.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1727
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1725--1726
  \TU/lmr/m/n/10.95 (44.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
  \TU/lmr/m/n/10.95 (60.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
  \TU/lmr/m/n/10.95 (30.8%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
  \TU/lmr/m/n/10.95 (26.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1726
  \TU/lmr/m/n/10.95 (70.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1728
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1726--1727
  \TU/lmr/m/n/10.95 (50.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1728--1728
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
  \TU/lmr/m/n/10.95 (38.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1728--1728
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
  \TU/lmr/m/n/10.95 (33.3%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1728--1728
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
  \TU/lmr/m/n/10.95 (34.1%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1728--1728
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1727
  \TU/lmr/m/n/10.95 (37.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1728--1730
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1727--1729
  \TU/lmr/m/n/10.95 (42.3%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1729--1729
  \TU/lmr/m/n/10.95 (21.4%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1729--1729
  \TU/lmr/m/n/10.95 (29.7%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1729--1729
  \TU/lmr/m/n/10.95 (29.4%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1729--1729
  \TU/lmr/m/n/10.95 (30.0%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1731
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1729--1730
  \TU/lmr/m/n/10.95 (43.5%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1731--1731
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
  \TU/lmr/m/n/10.95 (31.1%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1731--1731
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
  \TU/lmr/m/n/10.95 (28.6%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1731--1731
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
  \TU/lmr/m/n/10.95 (22.5%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1731--1731
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1730
  \TU/lmr/m/n/10.95 (23.2%)| 
  []
 
 
-Overfull \hbox (1.49174pt too wide) in paragraph at lines 1731--1733
+Overfull \hbox (1.49174pt too wide) in paragraph at lines 1730--1732
  \TU/lmr/m/n/10.95 (24.7%)| 
  []
 
@@ -2084,7 +2084,7 @@ L3 programming layer <2025-12-24>
 Here is how much of TeX's memory you used:
  20730 strings out of 470195
  407119 string characters out of 5477817
- 980422 words of memory out of 5000000
+ 980078 words of memory out of 5000000
  49000 multiletter control sequences out of 15000+600000
  634276 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
